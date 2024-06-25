@@ -1,0 +1,80 @@
+body
+ {
+    background-color: #d3edf8;
+    justify-content: center;
+   height: 95vh;
+
+}
+
+.container {
+    background-color: #d9b3ff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0,0.1);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+.navbar-brand
+{
+    font-size: 30px;
+
+
+}
+.d1
+{
+    font-size: 45px;
+
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar-nav 
+{
+    font-size: 20px;
+}
+.card-header {
+  font-size: 1.5em;
+}
+
+.tick-mark {
+  color: ;
+  font-size: 3rem;
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.modal-header {
+  justify-content: center;
+  border-bottom: none;
+  
+}
+.modal-title
+{
+    font-size: 30px;
+}
+
+.modal-footer {
+  justify-content: center;
+  border-top: none;
+}
+
+.modal-body {
+  padding-top: 0;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

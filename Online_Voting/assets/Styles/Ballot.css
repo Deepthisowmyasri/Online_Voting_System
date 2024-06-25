@@ -1,0 +1,101 @@
+.container {
+    background-color: #ffb3b3;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0,0.1);
+}
+body
+{
+    background-color: #d3edf8;
+}
+.card {
+    font-size: 100px;
+  margin-bottom: 20px;
+  background-color:  #ffc14d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.vote-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 75px;
+  height: 40px;
+  font-size: 27px;
+}
+.vote-button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.voted-card {
+  border: 1px solid #28a745; 
+}
+
+
+.tick-mark {
+  width: 100px;  /* Increased size */
+  height: 100px; /* Increased size */
+  margin-bottom: 20px;
+}
+
+.tick-mark__circle {
+  stroke: #28a745;
+  stroke-width: 2.5;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  transition: stroke-dashoffset 0.6s ease-in-out;
+}
+
+.tick-mark__check {
+  transform-origin: 50% 50%;
+  stroke: #28a745;
+  stroke-width: 2.5;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  transition: stroke-dashoffset 0.3s 0.6s ease-in-out;
+}
+
+.tick-mark__circle.animated {
+  stroke-dashoffset: 0;
+}
+
+.tick-mark__check.animated {
+  stroke-dashoffset: 0;
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.modal-header {
+  justify-content: center;
+  border-bottom: none;
+  
+}
+.modal-title
+{
+    font-size: 40px;
+}
+
+.modal-footer {
+  justify-content: center;
+  border-top: none;
+}
+
+.modal-body {
+  padding-top: 0;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

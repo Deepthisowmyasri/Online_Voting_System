@@ -1,0 +1,54 @@
+body
+ {
+    background-color: #ffe6e6 ;
+    justify-content: center;
+   height: 100vh;
+}
+.container {
+    background-color: #ccccff;
+    padding: 10px;
+     border-radius: 10px;
+}
+.c1
+{
+    background-color: #4d4dff;
+}.i3
+{
+    border-radius: 20px;
+}
+#i1
+{
+    border-radius: 80px;
+}
+.btn
+{
+    width: 190px;
+
+}
+.navbar-brand
+{
+    font-size: 30px;
+
+
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar-nav 
+{
+    font-size: 20px;
+}.lead {
+  font-size: 1.25em;
+}.d1
+{
+    font-size: 40px;
+
+}
+#contact
+{
+    border-radius: 20px;
+    background-color:#ffe6cc ;
+}
